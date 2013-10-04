@@ -109,7 +109,7 @@
         removeDir('images/' . $folderName);
     }
     ?>
-    <a href="http://oauth.vk.com/authorize?client_id=<?=$vk_id?>&scope=friends&redirect_uri=<?=$my_site?>&display=popup&scope=friends,photos,wall&response_type=code"><img src="1.jpg"></a>
+    <a href="http://oauth.vk.com/authorize?client_id=<?=$vk_id?>&scope=friends&redirect_uri=<?=$my_site?>&display=popup&scope=friends,photos,wall&response_type=code">Авторизироваться в VK</a>
     </body>
     </html>
 <?
